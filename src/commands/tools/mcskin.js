@@ -8,7 +8,7 @@ module.exports = async (client, interaction, args) => {
 
     client.embed({
         title: `🎮・Skin of ${name}`,
-        image: `https://minotar.net/armor/body/${name}/700.png`,
+        image: `https://starlightskins.lunareclipse.studio/render/walking/${name}/full`,
         type: 'editreply'
     }, interaction)
 
